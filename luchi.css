@@ -1,0 +1,233 @@
+body,*, *::before,*::after {
+  box-sizing: border-box;
+                           }
+
+html, body{
+  font-family: helvetica,sans-serif;
+  font-size: 16px;
+  font color: #474747;
+          }
+
+.lump::before{
+content: " ";
+display: block;
+background-color: #474747;
+height: 3px;
+             }
+
+.lucky{
+  width: 940px;
+  margin: 0 auto;
+  overflow:hidden;
+      }
+
+
+h1,h2,h3,h4,h5,h6, .title{
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 1em;
+                         }
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #696969;
+ }
+
+a:hover,a:active, a:visited{
+  text-decoration: underline;
+  font-size: 17px;
+  color:#474747;
+                            }
+
+/*===================
+  HEADER
+  ==================*/
+
+header.lucky{
+  border-top: 10px solid ash;
+            }
+
+.lucky >div{
+  position: relative;
+           }
+
+.lucky nav{
+    font-family: cursive;
+    text-transform: uppercase;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+            }
+
+.lucky nav li{
+   float: left;
+   margin-right: 3em;
+   color:#474747;
+   font-size: 12px;
+   padding-top: 3em;
+   list-style-type: none;
+              }
+
+.lucky nav li em{
+  display: block;
+  color: black;
+  font-size: 22px;
+                }
+
+ .lucky2 li:last-child {
+ margin-right: 0px;
+                       }
+
+.tt {
+  margin-bottom: 0em;
+  font-family:  Pacifico,cursive;
+  font-size: 3.7em;
+  font-weight: bold;
+  text-transform: capitalize;
+  position: absolute;
+  padding-left: 5px;
+    }
+
+.lucky .lucky1 .tt{
+  padding-top: 10px;
+                  }
+
+
+/*==============================
+MAIN VISUAL
+===============================*/
+ .chisom{
+   padding-top: 25px;
+        }
+
+
+.chisom .chisom1{
+     width: 940px;
+     margin: 0 auto;
+                  }
+
+.chisom1 img{
+    display: block;
+              }
+
+.chi {
+    background-color:#f4f4f4;
+    padding-left: 10px;
+    padding-right:10px;
+    color:#474747;
+      }
+
+.chisom .chisom1  .title{
+    font-size: 1.2em;
+    color: black;
+                        }
+
+   p{
+     line-height: 1.5em;
+    }
+
+/*-----------claims-------------*/
+.claims {
+  width:940px;
+  margin:0 auto;
+  color: #474747;
+        }
+
+.luchi1{
+  width:30%;
+  float:left;
+  overflow:hidden;
+  margin-right: 2.5em;
+  margin-top: 3em;
+      }
+
+.luchi1:last-child{
+  margin-right: 0px;
+  float: right;
+                  }
+
+
+.luchi1 header >i {
+  font-weight: bold;
+  font-size: 3rem;
+  float: left;
+  width:25%;
+                  }
+header >h2{
+  width:75%;
+  float:left;
+}
+
+.title{
+  font-size: 0.8em;
+}
+/*=======================portfolio====================*/
+.mme{
+  width:940px;
+  margin: 0 auto;
+  margin-top: 20em;
+  background-image: url("CSS\images\pattern.png");
+    }
+
+
+.money1 >h2{
+  display: inline;
+  font-family: cursive;
+  font-size:25px;
+  background-color: #8e8e93;
+           }
+
+.money1{
+  text-align: center;
+       }
+
+.lorem1{
+  float: left;
+  width: 22%;
+  margin-left:0em;
+  margin-right:37px;
+  overflow: hidden;
+        }
+
+.lorem1:last-child{
+  margin-right: 0px;
+                  }
+
+.lorem1:first-child{
+  margin-left: 0px;
+                  }
+
+figure{
+  margin-left: 0px;
+  margin-right: 2em;
+      }
+
+
+
+/* ----------------foooter -------------*/
+
+.lucky-footer::before{
+  content: " ";
+  display: block;
+  height: 4px;
+  background-color: #666262;
+                   }
+.lucky-footer{
+background-color: #f4f4f4;
+color: #696969;
+font-size: 18px;
+margin-top:20em;
+overflow: hidden;
+             }
+.lucky-footer .copy{
+  float: left;
+                   }
+.lucky-footer .credits{
+  float: right;
+                     }
+.lum{
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 1em;
+     }

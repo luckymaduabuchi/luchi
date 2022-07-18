@@ -1,0 +1,104 @@
+body,*, *::before,*::after {
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: helvetica,sans-serif;
+  font-size: 16px;
+  font color: #474747;
+            }
+.lucky{
+  width: 940px;
+  margin: 0 auto;
+  overflow:hidden;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Roboto;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: inherit;
+}
+a:hover,a:active, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+.
+/*===================HEADER===========*/
+header.lucky{
+  border-top: 10px solid blue;
+
+}
+
+    .lucky >div{
+     position: relative;
+
+    }
+ .lucky nav{
+    font-family: cursive;
+    text-transform: uppercase;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+
+ }
+ .lucky nav li{
+   float: left;
+   margin-right: 3em;
+   color:#474747;
+   font-size: 12px;
+   padding-top: 3em;
+  list-style-type: none;
+ }
+.lucky nav li em{
+  display: block;
+  color: black;
+  font-size: 22px;
+}
+ .lucky2 li:last-child {
+ margin-right: 0px;
+ }
+
+.tt {
+  margin-bottom: 0em;
+  font-family:  Pacifico,cursive;
+  font-size: 3.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  position: absolute;
+}
+/* ----------------foooter -------------*/
+.lucky-footer:before{
+  content: " ";
+  height: 5px;
+  display: block;
+  background-image: url("pattern.png");
+  background-repeat: repeat-x;
+  background-position: top left;
+}
+
+.lucky-footer{
+background-color: #f4f4f4;
+color: #696969;
+font-size: 18px;
+text-transform: full-width;
+height: 70px;
+overflow: hidden;
+
+            }
+.lucky-footer .copy{
+float: left;
+
+}
+.lucky-footer .credits{
+  float: right;
+}
+.lum{
+  width: 940px;
+  margin: auto;
+}
